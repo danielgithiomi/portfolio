@@ -449,7 +449,7 @@ section {
   position: absolute;
   z-index: 9;
   right: 10%;
-  top: 5%;
+  top: 10%;
   height: 85vh;
 }
 
@@ -469,6 +469,7 @@ section {
 }
 
 @keyframes skills-rotate {
+
   0%,
   20% {
     transform: rotate(0deg);
@@ -516,9 +517,8 @@ section {
 
 /* Programmer */
 /* Full Stack Developer */
-.skills .skill:nth-child(3) i,
-.skills .skill:nth-child(4) i {
-  margin-right: 25px;
+.skills .skill i {
+  margin-right: 20px;
 }
 
 .skill h3 {
@@ -922,6 +922,7 @@ footer {
 }
 
 @media all and (max-width: 1455px) {
+
   /* Home */
   .home-content {
     max-width: 50%;
@@ -943,7 +944,7 @@ footer {
 
   .headerImg img {
     width: 400px;
-    height: 550px;
+    height: 600px;
   }
 
   /* Services */
@@ -975,6 +976,7 @@ footer {
 
 /* Extra Large Screens */
 @media all and (max-width: 1200px) {
+
   /* Common */
   section {
     padding: 6rem 6% 0 6%;
@@ -1093,6 +1095,7 @@ footer {
 
 /* Large Screens */
 @media all and (max-width: 992px) {
+
   /* Common */
   section {
     padding: 7rem 4% 0 4%;
@@ -1250,6 +1253,7 @@ footer {
 
 /* Medium Screens */
 @media all and (max-width: 768px) {
+
   /* Header */
   .theme-switcher i,
   .hamburger i {
@@ -1358,6 +1362,7 @@ footer {
 }
 
 @media all and (max-width: 650px) {
+
   /* CV */
   .cv {
     flex-direction: column;
@@ -1376,6 +1381,7 @@ footer {
 
 /* Small Screens */
 @media all and (max-width: 600px) {
+
   /* Home */
   .home-content {
     font-size: 1rem;
@@ -1469,6 +1475,7 @@ footer {
 }
 
 @media all and (max-width: 428px) {
+
   /* Home */
   .home-content {
     font-size: 0.6rem;
@@ -1505,6 +1512,7 @@ footer {
 }
 
 @media all and (max-width: 300px) {
+
   /* Common */
   html {
     font-size: 85%;
